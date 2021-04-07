@@ -1,0 +1,61 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Times New Roman',Times, serif;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+img{
+    float: left;
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 1px;
+    border-color: transparent;
+}
+
+body{
+    background-color: black;
+}
+
+.planet{
+    text-align: center;
+    background:black;
+    
+}
+
+.planet ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.planet ul li{
+    padding: 2px;
+    margin: 8px;
+    width: 120px;
+}
+
+.planet ul li a{
+    color: yellow;
+}
+
+.planet ul li:hover{
+    background: rgb(34, 33, 33);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.planet ul .fa{
+    padding: 2px;
+    margin: 4px;
+}

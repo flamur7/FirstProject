@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+.planet{
+    text-align: center;
+    background:black;
+    border-bottom: 1px dotted white;
+    
+margin-top: 0%;
+    
+}
+
+.planet ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.planet ul li{
+    padding: 10px;
+    margin: 18px;
+    width: 160px;
+}
+
+.planet ul li a{
+    color: yellow;
+}
+
+.planet ul li:hover{
+    background: rgb(56, 55, 55);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.planet ul .fa{
+    padding: 2px;
+    margin: 4px;
+}
+
+.planet1{
+    display: none;
+}
+
+.planet ul li:hover .planet1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+
+.planet ul li:hover .planet1 ul{
+    margin: 1px;
+    display: block;
+}
+
+.planet ul li:hover .planet1 ul li{
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px dotted white ;
+    border-radius: 100px;
+}
+
+.planet ul li:hover .planet1 ul li a:hover{
+    color:white;
+    border-radius: 2px;
+}
+
+#content{
+    padding-top: 90px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.content-main {
+    font-family: Consolas;
+    font-size: 18px;
+    height: auto;
+    margin-bottom: 30px;
+    color: #44424b;
+    padding: 0 20px 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 15px 0px lightgray
+}
+.content-main:hover{
+    background: transparent;
+    color: white;
+}
+.content-color {
+    background-color: white;
+}
+
+p{
+    font-weight: bold;
+}
